@@ -1,0 +1,47 @@
+<?php
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: liu21st <liu21st@gmail.com>
+// +----------------------------------------------------------------------
+
+return [
+    // 默认模块名
+    'default_module'         => 'pc',
+    // 默认控制器名
+    'default_controller'     => 'Index',
+    // 默认操作名
+    'default_action'         => 'index',
+
+    // 应用调试模式
+    'app_debug'              => true,
+    // 应用Trace
+    'app_trace'              => true,
+
+    'template'  =>  [
+        'layout_on'     =>  true,
+        'layout_name'   =>  'layout',
+    ],
+
+    'view_replace_str'  =>  [
+        '__PUBLIC__'=>'/public/',
+        '__ROOT__' => '/',
+    ],
+
+    // 异常处理handle类 留空使用 \think\exception\Handle
+    // 'exception_handle'       => '\app\lib\exception\ExceptionHandler',
+
+    // 'log'                    => [
+    //     // 日志记录方式，内置 file socket 支持扩展
+    //     // 关闭自动记录日志，请将type设置为test
+    //     'type'  => 'test',
+
+    // ],
+
+
+
+];
